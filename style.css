@@ -1,0 +1,80 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1231px) {
+  body {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.player {
+  margin-bottom: .5em;
+}
+
+.draw-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3em 2em .5em;
+}
+
+.button {
+  margin: auto;
+  border-radius: 50px;
+  border: none;
+  padding: .7em 1em;
+  font-size: 1em;
+  font-weight: 700;
+  background: #9e2943;
+  letter-spacing: 1px;
+  color: #fff;
+  -webkit-box-shadow: -10px 10px 46px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: -10px 10px 46px -13px rgba(0,0,0,0.75);
+  box-shadow: -10px 10px 46px -13px rgba(0,0,0,0.75);
+  transition: all .3s;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  -webkit-box-shadow: -5px 8px 31px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px 8px 31px -5px rgba(0,0,0,0.75);
+  box-shadow: -5px 8px 31px -5px rgba(0,0,0,0.75);
+}
+
+.button:active { top: 2px; }
+
+.list-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  list-style: none;
+  -webkit-padding-start: 0;
+}
+
+.list-element {
+  background: #eaeaea;
+  border-radius: 5px;
+  margin: .5em 0;
+  padding: .3em .8em;
+}
+
+.song-wrapper {
+  font-weight: 700;
+}
+
+.artist-wrapper {
+  font-size: .8em;
+  color: #555555
+}
